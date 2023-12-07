@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* 全体 */
+body {
+	background-color: #fafafa;
+	color: #222;
+	/* font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif; */
+	line-height: 1.5;
+}
+
+/* 見出し1 */
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	/*
+	color: #ff0033;
+	font-weight: bold;
+	*/
+	font-size: 32px;
+}
+
+/* フッター */
+footer {
+	text-align: center;
+	padding: 10px;
+}
