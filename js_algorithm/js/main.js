@@ -1,6 +1,6 @@
 console.log("■■ アルゴリズムテスト");
 
-// p012
+// p011
 console.log("■ 最大値を求める");
 
 // 最大値の計算
@@ -19,3 +19,24 @@ for (let i = 0; i < max_num; i++) {
     console.log("終了");
     console.log("最大値は、", answer_num);
 }
+
+
+console.log("\n■ 等しい整数の出力");
+
+let x_ary2 = [1, 2, 2, 3, 4, 5, 5, 6, 7, 7, 7, 8, 9, 9, 10];
+let max_num2 = x_ary2.length;
+
+for (let i = 0; i < max_num2; i++) {
+    for (j = i + 1; j < max_num2 + 1; j++) {
+        if (x_ary2[i] === x_ary2[j]) {
+            console.log(`${x_ary2[i]}と${x_ary2[j]}は同じである`);
+        }
+    }
+}
+
+// 2と2は同じである
+// 5と5は同じである
+// 3回 7と7は同じである
+// 9と9は同じである
+
+
