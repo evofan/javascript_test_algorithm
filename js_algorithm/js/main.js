@@ -40,3 +40,21 @@ for (let i = 0; i < max_num2; i++) {
 // 9と9は同じである
 
 
+console.log("\n■ 再帰");
+
+// p29
+
+function cell(n) {
+    if (n === 0) {
+        return 10
+    } else {
+        return 2 * cell(n - 1) - 1;
+    }
+}
+
+console.log(cell(3)); // 73
+
+// 4章データの探索
+
+// 探索アルゴリズム
+
